@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start":"npm index.js"
+    "start":"node index.js"
   },
   "author": "Bruce Higiro",
   "license": "ISC",
