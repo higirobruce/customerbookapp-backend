@@ -46,6 +46,9 @@ let auth = (req, res, next) => {
     res.status(401).send("Authentication required."); // custom message
   };
 
+  app.get('/', (req,res)=>{
+    res.send('Welcome')
+  })
   app.use('/records', recordsRoute)
 
 
